@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashvini's Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpeg"alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"> 
+            <p>Web Developer</p>
+            <h1>Hey, Myself <span>ASHVINI RAI.</span></h1>
+        </div>
+        
+    </div>
+  
+</div>
+<!-- about -->
+<div id="about"> 
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp Image 2023-08-01 at 22.09.55.jpeg" > </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>Motivated and skilled web developer with a passion for creating innovative and user-friendly websites. I possess a strong foundation in front-end and back-end technologies, along with a keen eye for design and a dedication to producing high-quality code. Seeking opportunities to contribute my expertise and creativity to a dynamic organization that values innovation and growth.</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    
+                    <li><span>Web Development</span><br>Web app Development</li>
+                   
+                 <li><span>Languages</span><br>C++, JavaScript, SQL & Java</li>
+                    <li><span>Framework</span><br>NodeJS</li>
+                    </li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023-Current</span><br>Web Developer At Bharat Intern</li>
+                    <li><span>2023-Current</span><br> Web Developer At CodSoft</li>
+                    <li><span>2022-2023</span><br>Internship at NTPC Ltd.</li>
+                    </li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-2024</span><br>B.tech from MMMUT</li>
+                    <li><span>2019-2020</span><br>Intermediate From St. Joseph's School</li>
+                    <li><span>2017-2018</span><br>High School From DALIMSS</li>
+                </ul>
+               </div>
+
+                </div> 
+           
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>As a skilled and innovative web developer, I am dedicated to creating exceptional digital experiences that drive success for businesses and delight users. With a strong background in front-end and back-end development, I possess the technical expertise to build robust and responsive websites. Utilizing the latest technologies and best practices, 
+                </p>
+                 <a href="#">Learn More</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i> 
+            <h2>Progammer</h2>
+            <p>As a proficient C++ programmer, I offer comprehensive software development services with a focus on creating efficient and scalable solutions. With a solid understanding of object-oriented programming and data structures, I possess the ability to design and implement complex algorithms.  </p>
+                 <a href="#">Learn More</a>
+
+        </div>
+        
+    </div>
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pexels-thisisengineering-3861964.jpg">
+                <div class="layer">
+                    <h3>Temperature Converter</h3>
+                    <p>The website coverts one unit of Temperature to another unit.
+                    </p>
+                     <a href="https://ashvinirai.github.io/temperature-converter/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pexels-thisisengineering-3861976.jpg">
+                <div class="layer">
+                    <h3>Netflix- Home Page</h3>
+                    <p>It is the clone of netflix website that displays its home page.
+                    </p>
+                    <a href="https://ashvinirai.github.io/Netflix-Homepage/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pexels-mikael-blomkvist-6476595.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>It performs basic calculations like adding, subtracting etc. 
+                    </p>
+                    <a href="https://ashvinirai.github.io/Calculator/"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/ashvinirai" class="btn">See More</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1> 
+            <p><i class="fas fa-paper-plane"></i>ashvinrai2003@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>8172878348</p>
+            <div class="social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="Ashvini Rai.pdf" download class="btn btn2">Download CV</a>
+        </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name"required>
+                        <input type="email" name="email" placeholder="Your email"required>
+                        <textarea type="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+           
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © ashvinirai. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+   <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+    }
+   </script> 
+   <script>
+
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu(){
+                    sidemenu.style.right="0";
+                }
+                function closemenu(){
+                    sidemenu.style.right="-200px"; 
+                }
+
+   </script>
+   <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbx8P5fgXymIWpi-j0_m1BsZxwXFRDBDv7AQxBp1blQA8gFoSOGCOOmbwoRAncHXbLR2/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{msg.innerHTML = "Message Sent"})
+        .catch(error => console.error('Error!', error.message))
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+  </script>
+</body>
+</html>
